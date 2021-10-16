@@ -1,0 +1,11 @@
+<div class="gallery-container">
+    <ul>
+        <li *ngFor="let card of gallery.card" >
+            <img src={{card.img.src}} alt={{card.img.alt}}>
+            <div class="inner" >
+                <p>{{card.name}}</p>
+            </div>
+        </li>
+    </ul>
+</div>
+

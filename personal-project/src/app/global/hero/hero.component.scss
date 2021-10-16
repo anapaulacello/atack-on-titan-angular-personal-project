@@ -1,0 +1,20 @@
+.hero-container{
+    height: 100vh;
+    width: auto;
+    background-color: #131313;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 390px;
+
+    }
+    button{
+        background-color:   #cccccc;
+        padding: 10px;
+        border-radius: 50px;
+
+    }
+}

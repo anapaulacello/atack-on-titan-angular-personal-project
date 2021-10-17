@@ -8,6 +8,8 @@ import { NavComponent } from './global/nav/nav.component';
 import { HeroComponent } from './global/hero/hero.component';
 import { GalleryComponent } from './global/gallery/gallery.component';
 import { FormComponent } from './global/form/form.component';
+import { FormsModule } from '@angular/forms';
+import { EncuestaComponent } from './global/form/encuesta/encuesta.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { FormComponent } from './global/form/form.component';
     NavComponent,
     HeroComponent,
     GalleryComponent,
-    FormComponent
+    FormComponent,
+    EncuestaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

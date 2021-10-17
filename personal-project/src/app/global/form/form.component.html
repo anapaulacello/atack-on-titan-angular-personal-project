@@ -1,3 +1,7 @@
-<div id="form">
+<!-- <div id="form">
     <h2>{{form.title}}</h2>
+</div> -->
+<div> <!-- output -->
+    <app-encuesta [inputText]="inputText" (emitText)="setMessage($event)"></app-encuesta>
+    <p>{{sonMessage}}</p>
 </div>

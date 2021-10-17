@@ -16,13 +16,7 @@ public globalModel!:GlobalModel;
           alt:'logo'
         }
       },
-     /*  hero:{
-        logo:{
-          src:'https://imgur.com/YZPTLFs.png',
-          alt:'logo'
-        },
-        button:'cambiar emblema'
-      }, */
+      
       gallery:{
         card:[
           {
@@ -48,9 +42,9 @@ public globalModel!:GlobalModel;
           }
         ]
       },
-      form:{
+      /* form:{
         title:'Cuál es tu personaje favorito??'
-      }
+      } */
     }
    }
 

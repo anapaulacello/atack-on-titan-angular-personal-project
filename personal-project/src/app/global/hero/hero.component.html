@@ -1,7 +1,4 @@
-<!-- <div class="hero-container">
-    <img src={{hero.logo.src}} alt={{hero.logo.alt}}>
-    <button>{{hero.button}}</button>
-</div> -->
+
 <div class="hero-container" *ngIf="heroModels.button=='legion'">
     <img src="{{heroModels.logo1.src}}" alt="{{heroModels.logo1.alt}}">
     <button (click)="onClickButton()" [ngStyle]="{'background-color':'#043464'}">{{heroModels.button}}</button>

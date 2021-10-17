@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 .hero-container{
     height: 100vh;
     width: auto;
@@ -9,12 +10,14 @@
     align-items: center;
     img{
         height: 390px;
-
+        padding: 15px;
     }
     button{
         background-color:   #cccccc;
         padding: 10px;
         border-radius: 50px;
-
+        font-family: 'Fjalla One', sans-serif;
+        color: white;
+        letter-spacing: 2px;
     }
 }

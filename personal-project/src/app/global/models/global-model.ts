@@ -1,6 +1,6 @@
 export interface GlobalModel {
     nav:Nav;
-    hero:Hero;
+    //hero:Hero;
     gallery:Gallery;
     form:Form;
 }
@@ -9,10 +9,10 @@ export interface Nav{
     img:Img;
 }
 
-export interface Hero{
+/* export interface Hero{
     logo:Img;
     button:string;
-}
+} */
 
 export interface Gallery{
     card:Card[];

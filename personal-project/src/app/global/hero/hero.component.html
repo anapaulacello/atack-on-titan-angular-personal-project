@@ -1,4 +1,20 @@
-<div class="hero-container">
+<!-- <div class="hero-container">
     <img src={{hero.logo.src}} alt={{hero.logo.alt}}>
     <button>{{hero.button}}</button>
+</div> -->
+<div class="hero-container" *ngIf="heroModels.button=='legion'">
+    <img src="{{heroModels.logo1.src}}" alt="{{heroModels.logo1.alt}}">
+    <button (click)="onClickButton()" [ngStyle]="{'background-color':'#043464'}">{{heroModels.button}}</button>
+</div>
+<div class="hero-container" *ngIf="heroModels.button=='policia'">
+    <img src="{{heroModels.logo2.src}}" alt="{{heroModels.logo2.alt}}">
+    <button (click)="onClickButton()" [ngStyle]="{'background-color':' #047632'}">{{heroModels.button}}</button>
+</div>
+<div class="hero-container" *ngIf="heroModels.button=='tropas'">
+    <img src="{{heroModels.logo3.src}}" alt="{{heroModels.logo3.alt}}">
+    <button (click)="onClickButton()" [ngStyle]="{'background-color':' #8c3044'}">{{heroModels.button}}</button>
+</div>
+<div class="hero-container" *ngIf="heroModels.button=='reclutas'">
+    <img src="{{heroModels.logo4.src}}" alt="{{heroModels.logo4.alt}}">
+    <button (click)="onClickButton()" [ngStyle]="{'background-color':' #8b8e8a'}">{{heroModels.button}}</button>
 </div>

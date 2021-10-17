@@ -16,13 +16,13 @@ public globalModel!:GlobalModel;
           alt:'logo'
         }
       },
-      hero:{
+     /*  hero:{
         logo:{
           src:'https://imgur.com/YZPTLFs.png',
           alt:'logo'
         },
         button:'cambiar emblema'
-      },
+      }, */
       gallery:{
         card:[
           {

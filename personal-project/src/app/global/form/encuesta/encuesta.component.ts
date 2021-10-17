@@ -15,6 +15,6 @@ export class EncuestaComponent implements OnInit {
   ngOnInit(): void {
   }
   sendMessage (){
-    this.emitText.emit('gracias por participar en la encuesta. A nosotros tambien nos encanta '+this.message);
+    this.emitText.emit('😊Gracias por participar!! A nosotros también nos encanta '+this.message);
   }
 }
